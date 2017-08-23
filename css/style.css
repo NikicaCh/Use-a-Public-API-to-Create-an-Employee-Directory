@@ -1,0 +1,188 @@
+html {
+    background: #E8E8E8;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:#734256;
+}
+h1 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color:#734256;
+}
+table {
+    padding: 0 40px;
+    padding-top: 50px;
+    width: 100%;
+    margin: auto;
+    border-spacing: 30px;
+}
+th {
+    height: 170px;
+    max-width: 100px;
+    border: 1px solid #734256;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0px 1px 0px #734256;
+}
+th:hover {
+    background: #FFF8DC;
+    cursor: pointer;
+}
+tr {
+    padding: 20px;
+    width: 100px;
+}
+.heading {
+    padding-left: 70px;
+}
+.pp {
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    float:left;
+    margin-left: 30px;
+    border: solid 2px #734256;
+}
+.modalPhoto {
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    margin-left: 117px; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align:center;
+    border: 2px solid #734256;
+}
+.modalName {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.modalEmail,
+.userName,
+.cellNumber,
+.address,
+.dob {
+    text-align: center;
+    font-size: .9em;
+    padding: 4px;
+}
+.cellNumber {
+    margin-top: 40px;
+}
+.name, 
+.email, 
+.city {
+    font-family: 'Quicksand', sans-serif;
+}
+.name {
+    font-weight: bold;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    color: #003;
+    text-align: left;
+}
+.email {
+    font-size: 1em;
+    text-align: left;
+}
+.city {
+    text-transform: capitalize;
+    text-align: left;
+}
+.info {
+    margin-top: 10px;
+    line-height: 1.7;
+    color: #bababa;
+    font-size: 12px;
+    float: right;
+    padding-right: 40px;
+}
+#search {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 67px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding-left: 60px;
+    color:#734256;
+}
+.modal {
+    display: none;
+    width: 350px;
+    height: 450px;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    margin: -190px 0 100px -176px;
+    position: fixed;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgb(115, 66, 86);
+}
+.noResults {
+    margin-left: 70px;
+}
+.arrows {
+    display: none;
+    width: 465px;
+    height: 450px;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin: -250px 20px 100px -232.5px;
+    position: fixed;
+    background: linear-gradient(rgba(115, 66, 86, 0),rgba(115, 66, 86, 0) );
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 40px 40px rgba(115, 66, 86, 0);
+}
+.right {
+    font-size: 220px;
+    opacity: .4;
+    float: right;
+    margin-top: 120px;
+}
+.left {
+    font-size: 220px;
+    opacity: .4;
+    float: left;
+    margin-top: 120px;
+}
+.right:hover {
+    opacity: 1;
+    color: #FAF0E6;
+}
+.left.clicked {
+    
+    color: #734256;
+}
+.left:hover {
+    opacity: 1;
+    color: #FAF0E6;
+}
+.right.clicked {
+    color: #734256;
+}
+.modalName {
+    font-size:2em;
+}
+#del {
+    font-size: 2.5em;
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    z-index: 3;
+}
+#del:hover {
+    color:#FAF0E6;
+}
+
+ .modalName,
+ .modalEmail,
+ .userName,
+ .cellNumber,
+ .address,
+ .dob{
+    color:#734256;
+}
